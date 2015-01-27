@@ -1,0 +1,21 @@
+google_analytics_id: UA-45936912-1
+
+# For Atom Feed
+domain: www.sdm.me
+author: Shaun Mouton
+email: shaun@sdm.me
+title: Shaun Mouton
+
+# Standard Jekyll configs
+permalink: /articles/:title
+pygments: true
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+markdown: rdiscount
+# github:
+#  username:
+# disqus:
+#  id: 
