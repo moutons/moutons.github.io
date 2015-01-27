@@ -1,0 +1,10 @@
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<link rel="stylesheet" href="/stylesheets/styles.css">
+<link rel="stylesheet" href="/stylesheets/pygment_trac.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+{% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}  
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+</head>

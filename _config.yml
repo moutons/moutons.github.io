@@ -8,7 +8,6 @@ title: Shaun Mouton
 
 # Standard Jekyll configs
 permalink: /articles/:title
-pygments: true
 exclude:
   - Gemfile
   - Gemfile.lock
