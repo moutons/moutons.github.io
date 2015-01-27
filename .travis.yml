@@ -9,10 +9,6 @@ env:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 language: ruby
 matrix: 
-  allow_failures: 
-    rvm: 
-      - "2.0.0"
-      - "2.1.0"
   fast_finish: true
 rvm: 
   - "1.9.3"
