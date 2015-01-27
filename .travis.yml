@@ -1,18 +1,23 @@
-language: ruby
-cache: bundler
-rvm:
-  - 1.9.3
-  - 2.1.0
-script:
-  - bundle exec rake
-# whitelist
-branches:
-  only:
+--- 
+branches: 
+  only: 
     - master
-matrix:
+    - /pages-(.*)/
+cache: bundler
+env: 
+  global: 
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+language: ruby
+matrix: 
+  allow_failures: 
+    rvm: 
+      - "2.0.0"
+      - "2.1.0"
   fast_finish: true
-  allow_failures:
-    - rvm: 2.1.0
-env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+rvm: 
+  - "1.9.3"
+  - "2.0.0"
+  - "2.1.0"
+script: 
+  - "bundle exec rake"
+
