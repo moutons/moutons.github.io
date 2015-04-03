@@ -6,7 +6,6 @@ exclude: ["README.md"] # files to exclude
 highlighter: pygments
 markdown: kramdown
 
-
 defaults:
   -
     scope:
@@ -29,3 +28,10 @@ categories_path: categories.html
 tags_path: tags.html
 
 BASE_PATH:
+
+permalink: /articles/:title
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - Readme.md
