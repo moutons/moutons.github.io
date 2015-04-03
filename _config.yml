@@ -34,4 +34,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - Rakefile
-  - Readme.md
+  - README.md
