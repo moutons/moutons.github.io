@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Yet Another Jekyll Site
+date: 2015-01-26
 category: posts
 tags: blah wat-do still talking
 ---
