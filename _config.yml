@@ -1,20 +1,31 @@
-google_analytics_id: UA-45936912-1
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# For Atom Feed
-domain: www.sdm.me
-author: Shaun Mouton
-email: shaun@sdm.me
-title: Shaun Mouton
+paginate: 20 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
 
-# Standard Jekyll configs
-permalink: /articles/:title
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - Rakefile
-  - README.md
-markdown: rdiscount
-# github:
-#  username:
-# disqus:
-#  id: 
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: www.sdm.me
+
+description: Stylish Jekyll Theme
+author:
+  name: moutons
+  email: sdmouton@gmail.com
+  github: moutons
+  twitter: sdmouton
+  linkedin: sdmouton
+  bio: Fundamental Attribution Error.
+  email_md5: d7f1b1aa16eeea0e7a8f28e9cbf27c05
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
