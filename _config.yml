@@ -13,8 +13,9 @@ exclude:
   - Gemfile.lock
   - Rakefile
   - README.md
+  - vendor
 markdown: rdiscount
 # github:
 #  username:
 # disqus:
-#  id: 
+#  id:
