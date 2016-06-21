@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
-gem 'github-pages', versions['github-pages']
-gem 'rake'
-gem 'html-proofer'
-gem 'rdiscount'
+gem "jekyll"
+gem "jekyll-redirect-from"
+gem "jekyll-paginate"
+gem "jekyll-sitemap"
+gem "jekyll-feed"
+gem "html-proofer"
