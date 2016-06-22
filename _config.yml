@@ -1,9 +1,9 @@
 google_analytics_id: UA-45936912-1
 
 # For Atom Feed
-domain: www.sdm.me
+domain: moutons.github.io
 author: Shaun Mouton
-email: shaun@sdm.me
+email: sdmouton@devops.christmas
 title: Shaun Mouton
 
 # Standard Jekyll configs
@@ -14,7 +14,7 @@ exclude:
   - Rakefile
   - README.md
   - vendor
-markdown: rdiscount
+markdown: kramdown
 # github:
 #  username:
 # disqus:
