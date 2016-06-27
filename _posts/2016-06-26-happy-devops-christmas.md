@@ -8,7 +8,7 @@ Not very long ago, I was inspired by [Nick Silkey][filler] to purchase a vanity 
 
 I love my work - the technical side and the people side, the improvement projects and the knocking down tickets. I have had the luck to work alongside some very smart people, doing some pretty neat things, and with some amazing human beings. One thing I've learned is that sometimes, when things are dark, a bit of a chuckle can help to lighten the moment, and foster a shared bond between people who've been to the dark places and still have the guts to struggle through to the other side together. That is my intention for [tirefi.re][tirefire] and the other things I make like it - dark jokes to bring people together in times of trouble.
 
-I hope that y'all use these thingums in that spirit.
+I hope that y'all use these thingums in that spirit. [http://happy.devops.christmas](http://happy.devops.christmas)
 
 -Shaun
 
