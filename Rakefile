@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 # jekyll Rakefile
 # Config variables above those defined in _config.yml
-$post_ext = ".md"
-$post_dir = "_posts/"
-$git_check = true
+post_ext = '.md'
+post_dir = '_posts/'
+git_check = true
 # load from configuration file if present
 load '_rake-configuration.rb' if File.exist?('_rake-configuration.rb')
 load '_rake_configuration.rb' if File.exist?('_rake_configuration.rb')
@@ -12,27 +12,23 @@ load '_rake_configuration.rb' if File.exist?('_rake_configuration.rb')
 #
 # Specify default values for variables NOT set by the user
 
-$post_ext ||= ".md"
-$post_dir ||= "_posts/"
-$git_check ||= true
-$git_autopush ||= false
+post_ext ||= '.md'
+post_dir ||= '_posts/'
+git_check ||= true
+git_autopush ||= false
 #
-# default task stuff
-#
-require 'rake'
-require 'html-proofer'
-
-desc 'Set default tasks'
-task :default => [:proof_sitedir]
 
 desc 'Test site using HTML::Proofer'
 task :proof_sitedir do
   system 'bundle exec jekyll build'
-  #system 'bundle exec htmlproofer --allow-hash-href --assume-extension ./_site'
-  HTMLProofer.check_directory("./_site/", {
-    :allow_hash_href => true,
-    :assume_extension => true
-  }).run
+  # system 'bundle exec htmlproofer --allow-hash-href --assume-extension ./_site'
+  HTMLProofer.check_directory(
+    "./_site/",
+    {
+      :allow_hash_href => true,
+      :assume_extension => true
+    }
+  ).run
 end
 #
 # and the rest
@@ -42,17 +38,15 @@ task :clean do
   cleanup
 end
 
-
 desc 'Preview on local machine'
 task :preview => :clean do
   jekyll('serve --watch')
 end
 task :serve => :preview
 
-
 desc 'Build for deployment'
 task :build => :clean do
-  if rake_running then
+  if rake_running
     puts "\n\n****WARNING: An instance of rake is running.\n"
     puts "****WARNING: Building while running other tasks (preview!) might create a site with broken links.\n\n"
     puts "Are you certain you want to continue? [Y|n]"
@@ -63,13 +57,12 @@ task :build => :clean do
   jekyll("build --config _config.yml")
 end
 
-
 desc 'Build and deploy to github'
 task :deploy_github => :build do |t, args|
   args.with_defaults(:deployment_configuration => 'deploy')
   config_file = "_config_#{args[:deployment_configuration]}.yml"
 
-  if git_requires_attention("gh-pages") then
+  if git_requires_attention('master')
     puts "\n\nWarning! It seems that the local repository is not in sync with the remote.\n"
     puts "This could be ok if the local version is more recent than the remote repository.\n"
     puts "Deploying before committing might cause a regression of the website (at this or the next deploy).\n\n"
@@ -79,16 +72,15 @@ task :deploy_github => :build do |t, args|
     exit if ans != 'Y'
   end
 
-  %x{git add -A && git commit -m "autopush by Rakefile at #{time}" && git push origin gh_pages} if $git_autopush
+  `git add -A && git commit -m "autopush by Rakefile at #{time}" && git push origin gh_pages` if git_autopush
 
   time = Time.new
-  File.open("_last_deploy.txt", 'w') {|f| f.write(time) }
+  File.open('_last_deploy.txt', 'w') { |f| f.write(time) }
 end
-
 
 desc 'Create a post'
 task :create_post, [:date, :title, :category, :content] do |t, args|
-  if args.title == nil then
+  if args.title.nil?
     puts "Error! title is empty"
     puts "Usage: create_post[date,title,category,content]"
     puts "DATE and CATEGORY are optional"
@@ -97,7 +89,7 @@ task :create_post, [:date, :title, :category, :content] do |t, args|
     exit 1
   end
 
-  if (args.date != nil and args.date != "nil" and args.date != "" and args.date.match(/[0-9]+-[0-9]+-[0-9]+/) == nil) then
+  if (args.date != nil && args.date != "nil" && args.date != "" && args.date.match(/[0-9]+-[0-9]+-[0-9]+/) == nil)
     puts "Error: date not understood"
     puts "Usage: create_post[date,title,category,content]"
     puts "DATE and CATEGORY are optional"
@@ -115,45 +107,43 @@ task :create_post, [:date, :title, :category, :content] do |t, args|
   end
 
   post_title = args.title
-  post_date = (args.date != "" and args.date != "nil") ? args.date : Time.new.strftime("%Y-%m-%d %H:%M:%S %Z")
+  post_date = (args.date != '' and args.date != 'nil') ? args.date : Time.new.strftime("%Y-%m-%d %H:%M:%S %Z")
 
   # the destination directory is <<category>>/$post_dir, if category is non-nil
   # and the directory exists; $post_dir otherwise (a category tag is added in
   # the post body, in this case)
   post_category = args.category
-  if post_category and Dir.exists?(File.join(post_category, $post_dir)) then
-    post_dir = File.join(post_category, $post_dir)
+  if post_category and Dir.exist?(File.join(post_category, post_dir))
+    post_dir = File.join(post_category, post_dir)
     yaml_cat = nil
   else
-    post_dir = $post_dir
+    post_dir = post_dir
     yaml_cat = post_category ? "category: #{post_category}\n" : nil
   end
 
-  def slugify (title)
+  def slugify(title)
     # strip characters and whitespace to create valid filenames, also lowercase
-    return title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+    return title.downcase.strip.tr(' ', '-').tr(/[^\w-]/, '')
   end
 
-  filename = post_date[0..9] + "-" + slugify(post_title) + $post_ext
+  filename = post_date[0..9] + '-' + slugify(post_title) + post_ext
 
   # generate a unique filename appending a number
   i = 1
-  while File.exists?(post_dir + filename) do
-    filename = post_date[0..9] + "-" +
+  while File.exist?(post_dir + filename)
+    filename = post_date[0..9] + '-' +
                File.basename(slugify(post_title)) + "-" + i.to_s +
-               $post_ext
+               post_ext
     i += 1
   end
 
 end
 
-
 desc 'Create a post listing all changes since last deploy'
 task :post_changes do |t, args|
   content = list_file_changed
-  Rake::Task["create_post"].invoke(Time.new.strftime("%Y-%m-%d %H:%M:%S"), "Recent Changes", nil, content)
+  Rake::Task['create_post'].invoke(Time.new.strftime("%Y-%m-%d %H:%M:%S"), 'Recent Changes', nil, content)
 end
-
 
 desc 'Show the file changed since last deploy to stdout'
 task :list_changes do |t, args|
@@ -161,40 +151,47 @@ task :list_changes do |t, args|
   puts content
 end
 
-
 def list_file_changed
   content = "Files changed since last deploy:\n"
   IO.popen('find * -newer _last_deploy.txt -type f') do |io|
-    while (line = io.gets) do
+    while (line = io.gets)
       filename = line.chomp
-      if user_visible(filename) then
-        content << "* \"#{filename}\":{{site.url}}/#{file_change_ext(filename, ".html")}\n"
+      if user_visible(filename)
+        content << "* \"#{filename}\":{{site.url}}/#{file_change_ext(filename, '.html')}\n"
       end
     end
   end
   content
 end
 
-
 # this is the list of files we do not want to show in changed files
-EXCLUSION_LIST = [/.*~/, /_.*/, "javascripts?", "js", /stylesheets?/, "css", "Rakefile", "Gemfile", /s[ca]ss/, /.*\.css/, /.*.js/, "bower_components", "config.rb"]
-
+EXCLUSION_LIST = [/.*~/,
+                  /_.*/,
+                  'javascripts?',
+                  'js',
+                  /stylesheets?/,
+                  'css',
+                  'Rakefile',
+                  'Gemfile',
+                  /s[ca]ss/,
+                  /.*\.css/,
+                  /.*.js/,
+                  'bower_components',
+                  'config.rb']
 
 # return true if filename is "visible" to the user (e.g., it is not javascript, css, ...)
 def user_visible(filename)
   exclusion_list = Regexp.union(EXCLUSION_LIST)
-  not filename.match(exclusion_list)
+  !filename.match(exclusion_list)
 end
 
-
 def file_change_ext(filename, newext)
-  if File.extname(filename) == ".textile" or File.extname(filename) == ".md" then
+  if File.extname(filename) == '.textile' || File.extname(filename) == '.md'
     filename.sub(File.extname(filename), newext)
   else
     filename
   end
 end
-
 
 #
 # General support functions
@@ -216,18 +213,30 @@ def rake_running
 end
 
 def git_local_diffs
-  %x{git diff --name-only} != ""
+  `git diff --name-only` != ''
 end
 
-def git_remote_diffs branch
-  %x{git fetch}
-  %x{git rev-parse #{branch}} != %x{git rev-parse origin/#{branch}}
+def git_remote_diffs(branch)
+  `git fetch`
+  `git rev-parse #{branch}` != `git rev-parse origin/#{branch}`
 end
 
 def git_repo?
-  %x{git status} != ""
+  `git status` != ''
 end
 
-def git_requires_attention branch
-  $git_check and git_repo? and git_remote_diffs(branch)
+def git_requires_attention(branch)
+  git_check && git_repo? && git_remote_diffs(branch)
 end
+
+#
+# default task stuff
+#
+require 'rake'
+require 'html-proofer'
+require 'rubocop/rake_task'
+
+RuboCop::RakeTask.new
+
+desc 'Set default tasks'
+task :default => :proof_sitedir
