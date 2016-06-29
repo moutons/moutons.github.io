@@ -8,7 +8,7 @@
 # Site settings
 domain: moutons.github.io
 email: sdmouton@devops.christmas
-title: blag things probably
+title: blague things probably
 
 description: >
   Everybody's talkin bout that new sound, funny, but it's still rock
@@ -35,4 +35,3 @@ kramdown:
   syntax_highlighter: rouge
 
 google_analytics_tracking_id: UA-45936912-4
-

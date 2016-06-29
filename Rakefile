@@ -1,5 +1,24 @@
 #!/usr/bin/env ruby
 # jekyll Rakefile
+# Config variables above those defined in _config.yml
+$post_ext = ".md"
+$post_dir = "_posts/"
+$git_check = true
+# load from configuration file if present
+load '_rake-configuration.rb' if File.exist?('_rake-configuration.rb')
+load '_rake_configuration.rb' if File.exist?('_rake_configuration.rb')
+#
+# OK now starting main engines
+#
+# Specify default values for variables NOT set by the user
+
+$post_ext ||= ".md"
+$post_dir ||= "_posts/"
+$git_check ||= true
+$git_autopush ||= false
+#
+# default task stuff
+#
 require 'rake'
 require 'html-proofer'
 
@@ -15,15 +34,16 @@ task :proof_sitedir do
     :assume_extension => true
   }).run
 end
-
-
+#
+# and the rest
+#
 desc 'Clean up generated site'
 task :clean do
   cleanup
 end
 
 
-desc 'Preview on local machine (server with --auto)'
+desc 'Preview on local machine'
 task :preview => :clean do
   jekyll('serve --watch')
 end
@@ -41,6 +61,28 @@ task :build => :clean do
     exit if ans != 'Y'
   end
   jekyll("build --config _config.yml")
+end
+
+
+desc 'Build and deploy to github'
+task :deploy_github => :build do |t, args|
+  args.with_defaults(:deployment_configuration => 'deploy')
+  config_file = "_config_#{args[:deployment_configuration]}.yml"
+
+  if git_requires_attention("gh-pages") then
+    puts "\n\nWarning! It seems that the local repository is not in sync with the remote.\n"
+    puts "This could be ok if the local version is more recent than the remote repository.\n"
+    puts "Deploying before committing might cause a regression of the website (at this or the next deploy).\n\n"
+    puts "Are you sure you want to continue? [Y|n]"
+
+    ans = STDIN.gets.chomp
+    exit if ans != 'Y'
+  end
+
+  %x{git add -A && git commit -m "autopush by Rakefile at #{time}" && git push origin gh_pages} if $git_autopush
+
+  time = Time.new
+  File.open("_last_deploy.txt", 'w') {|f| f.write(time) }
 end
 
 
@@ -160,12 +202,12 @@ end
 
 # remove generated site
 def cleanup
-  sh 'bundle exec jekyll clean'
+  jekyll('clean')
 end
 
 # launch jekyll
 def jekyll(directives = '')
-  system 'jekyll ' + directives
+  system 'bundle exec jekyll ' + directives
 end
 
 # check if there is another rake task running (in addition to this one!)
