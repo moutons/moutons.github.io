@@ -3,6 +3,7 @@ layout: post
 title:  "Happy Devops Christmas!"
 date:   2016-06-26 13:09:23 -0500
 categories: vanity-domains tools
+excerpt: I made a thing, please use it in kindness and health.
 ---
 Not very long ago, I was inspired by [Nick Silkey][filler] to purchase a vanity domain - [Clown Shoes][clownshoes] is one of my favorite phrases, and to see it turned to such fantastic use made me laugh for quite some time. I had recently changed jobs, and found that as I and my colleagues teased out details of the infrastructure and organization, that each time we turned over a rock, we found new creepy crawly neglected things we had to take care of very quickly. In jest, I typed [tirefi.re][tirefire] into our team Slack channel to describe the situation, and when I realized that it hadn't yet been purchased, I snatched it up. It took me some minutes to toss up an animated gif of a tire fire on Amazon S3, but once I saw it I felt a sense of joy bubble up. I've worked in a couple of fields where having a dark sense of humor has helped cope with the struggles faced in the job. Web operations is certainly one of those, but I wouldn't trade it for anything.
 

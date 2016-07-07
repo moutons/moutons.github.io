@@ -3,6 +3,7 @@ layout: post
 title: Content Filters and Amazon
 category: posts
 tags: content-filters amazon blocklist
+excerpt: I would really like a blocklist for the Audible and Kindle interfaces.
 ---
 
 # U got beef w Amazon?
@@ -13,6 +14,6 @@ However, as their marketplace feature becomes more robust, the general Amazon sh
 
 Audible was acquired by Amazon around 2008. They've tied in plenty of Kindle books to the audio platform so that you can purchase a Kindle book and the Audible version, and your reading/listening progress is synchronized. This is invaluable to those of us who have grueling commutes, even though the interface has some technical hiccups from time to time. The complaint here is that because it ties into the Kindle ecosystem, there is a glut of self-published content on Audible now, and that means low quality editing, low quality writing, and low quality narration become more frequent. Amazon is great about refunding purchases, and this makes the experience somewhat bearable (although I have to be sure to always have more than one book enqueue in case of disaster). Where this breaks down further is the Audible web interface. Searching for a book, or using their recommendations, is terrible. It does not remember what authors I have purchased, then requested a refund from. It does not use my ratings well, and continually recommends authors whose work I loathe simply because they spam genres with garbage content that matches my preferences superficially.
 
-I am tired of Amazon recommending me authors like B.V. Larson, David A. Wells, David Dalglish, etc. just because they keep crapping out word salad and marking it Science Fiction, Fantasy, or whatever. I got suckered into reading each of these garbage adolescent rape fantasists once, and would really like the ability to prevent their content from ever showing up in any of my results once and for all.
+I am tired of Amazon recommending me authors like B.V. Larson, David A. Wells, David Dalglish, etc. just because they keep crapping out word salad and marking it Science Fiction, Fantasy, or whatever. I got suckered into reading each of these garbage adolescent rape fantasists once, and would really like the ability to prevent their content from ever showing up in any of my results once and for all. Please, Amazon, add blocklists tied to the author and narrator fields in Audible, and in the Amazon customer settings. I could block some nutty vendor stuff in the regular Amazon shopping interface, and block crappy narrators and authors in Kindle & Audible.
 
 [end rant]
