@@ -4,3 +4,4 @@ _site
 
 old
 .ruby-version
+.ruby-gemset
