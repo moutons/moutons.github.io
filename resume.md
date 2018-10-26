@@ -2,7 +2,7 @@
 
 email: [sdmouton@gmail.com](mailto:sdmouton@gmail.com?subject=[GH]%20About%20Your%20Resume)  
 [twitter: @sdmouton](https://twitter.com/sdmouton)  
-https://www.linkedin.com/in/sdmouton/  
+[https://www.linkedin.com/in/sdmouton/](https://www.linkedin.com/in/sdmouton/)  
 
 ## Experience
 
