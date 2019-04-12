@@ -8,7 +8,7 @@ email: [sdmouton@gmail.com](mailto:sdmouton@gmail.com?subject=[GH]%20About%20You
 
 2017-Present Chef - Support Engineer
 
-* Provide Enterprise customers with support for the festival of open and closed source components that make up Chef Automate, Chef Server, Habitat, Inspec, and other Chef, Inc. products.
+* Support Enterprise customers with their efforts to transform their businesses leveraging Chef products.
 * Take proactive ownership in identifying and recommending product improvements based on key data points.
 * Own issues presented to Support, issuing pull requests to product code when necessary to drive issues to a positive resolution.
 * Ensure a great customer experience at every opportunity, contributing to customer delight and enhancing the value of Chef's products and services.
