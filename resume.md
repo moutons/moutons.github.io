@@ -1,7 +1,6 @@
 # Shaun Mouton
 
 email: [sdmouton@gmail.com](mailto:sdmouton@gmail.com?subject=[GH]%20About%20Your%20Resume)  
-[twitter: @sdmouton](https://twitter.com/sdmouton)  
 [https://www.linkedin.com/in/sdmouton/](https://www.linkedin.com/in/sdmouton/)  
 
 ## Experience
@@ -10,8 +9,9 @@ email: [sdmouton@gmail.com](mailto:sdmouton@gmail.com?subject=[GH]%20About%20You
 
 * Support Enterprise customers with their efforts to transform their businesses leveraging Chef products.
 * Take proactive ownership in identifying and recommending product improvements based on key data points.
+* Own and improve processes used whenever customers present issues.
 * Own issues presented to Support, issuing pull requests to product code when necessary to drive issues to a positive resolution.
-* Ensure a great customer experience at every opportunity, contributing to customer delight and enhancing the value of Chef's products and services.
+* Ensure a great customer experience at every opportunity, contributing to customer experience and enhancing the value of Chef's products and services.
 
 2016-2017 Kasasa - Senior Systems Administrator
 
