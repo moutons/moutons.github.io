@@ -1,6 +1,6 @@
 # Shaun Mouton
 
-email: [sdmouton@gmail.com](mailto:sdmouton@gmail.com?subject=[GH]%20About%20Your%20Resume)  
+email: [moutons@hey.com](mailto:moutons@hey.com?subject=[GH]%20About%20Your%20Resume)  
 [https://www.linkedin.com/in/sdmouton/](https://www.linkedin.com/in/sdmouton/)  
 
 ## Experience
