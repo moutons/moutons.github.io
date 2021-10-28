@@ -4,9 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Shaun works at Chef helping customers transform their businesses leveraging Chef software in the Support group. This generally means he can be found doing things like poring over logs, on zoom calls with customers digging into difficult-to-diagnose issues, or refining documentation.
-
-He tried for years to become something other than a sysadmin, but his plans were for naught. He's given some talks about bringing systems thinking, lean startup, agile software engineering and devops philosophy stuff, mostly in the Austin area. In the more distant past, he's talked some more about mental health services, cognitive behavioral therapy, mindfulness practice, and destigmatizing mental health issues. He talks a lot about configuration management, considerations and successful patterns when migrating applications from datacenters to AWS, and more.
+Shaun is a clown and this bio thing reflected that with more care at one point but it doesn't make much sense to spend effort updating that today so that stuff's gone.
 
 You can find him on Twitter as [@sdmouton](https://twitter.com/sdmouton), on github as [moutons](https://github.com/moutons), on [#_hangops_ slack](http://signup.hangops.com/) as sdmouton, and follow a similar pattern elsewhere on the internet to great success.
 

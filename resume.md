@@ -1,16 +1,27 @@
 # Shaun Mouton
 
-email: [moutons@hey.com](mailto:moutons@hey.com?subject=[GH]%20About%20Your%20Resume)  
+email: [sdmouton@devops.christmas](mailto:sdmouton@devops.christmas?subject=[GH]%20About%20Your%20Resume)  
 [https://www.linkedin.com/in/sdmouton/](https://www.linkedin.com/in/sdmouton/)  
 
 ## Experience
 
-2017-Present Chef - Support Engineer
+2021 Mastercard - Principal Software Development Engineer
 
-* Support Enterprise customers with their efforts to transform their businesses leveraging Chef products.
+* Own the the Chef Infra and Habitat core platforms, promote their usability
+* Manage and support other team-owned CI/CD core platforms, including Jenkins and PCF
+* Serve on the Software Engineering Guild architecture review board
+* Serve as SME where required
+
+2021 ID.me - Sr. Devops Engineer
+
+* Own operations concerns, enable development teams, organization through a period of explosive growth
+
+2017-2021 Chef - Sr. Customer Reliability Engineer
+
+* Aid Enterprise customers with their efforts to transform their businesses leveraging Chef products.
 * Take proactive ownership in identifying and recommending product improvements based on key data points.
 * Own and improve processes used whenever customers present issues.
-* Own issues presented to Support, issuing pull requests to product code when necessary to drive issues to a positive resolution.
+* Own customer issues, issuing pull requests to product code when necessary to drive issues to a positive resolution.
 * Ensure a great customer experience at every opportunity, contributing to customer experience and enhancing the value of Chef's products and services.
 
 2016-2017 Kasasa - Senior Systems Administrator
@@ -60,22 +71,27 @@ The Evergreen State College, Southwest Texas State University
 
 ## Conferences, SIGs, &c
 
+* All Day Devops
+  * 2021, Speaker - humane on-call strategies
 * devopsdays austin
-  * 2013
-  * 2014, Speaker - devops done us wrong
-  * 2015, Lightning Talk - Falling Lessons
-  * 2016, Lightning Talk - tirefi.re
-  * 2017, 2018
+  * 2020 - organizer
+  * 2017-2019 - volunteer
+  * 2016 - Lightning Talk - tirefi.re, volunteer
+  * 2015 - Lightning Talk - Falling Lessons, volunteer
+  * 2014 - Speaker - devops done us wrong
+  * 2012-2013 - attendee
+* devopsdays texas
+  * 2021 - organizer
 * Container Days Austin
-  * 2015, 2016
+  * 2015, 2016 - attendee
 * Data Day Texas
-  * 2013, 2014
+  * 2013, 2014 - attendee
 * 2013-14 State of DevOps Report
   * survey design working group
 * Geek Austin
   * Austin DevOps
   * Cloud User Group
-* ChefConf 2015
+* ChefConf 2015-2019
 * Austin Chef Meetup
 * Docker Austin
 * Agile Austin
