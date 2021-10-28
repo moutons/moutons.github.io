@@ -4,6 +4,17 @@ title: Speaker Info
 permalink: /speaker-info/
 ---
 
+## Talks
+
+* All Day Devops
+  * 2021, Speaker - humane on-call strategies [slides](slides/2021-ADDO-SRE-humane-on-call-strategies.pdf)
+* Devopsdays Austin
+  * 2016 - Lightning Talk - tirefi.re [slides](slides/2016-This-is-a-Tire-Fire.pdf)
+  * 2015 - Lightning Talk - Falling Lessons [slides](slides/2015-DODATX-Falling-Lessons.pdf)
+  * 2014 - Speaker - Devops Done Us Wrong [slides](slides/2014-DODATX-devops-done-us-wrong.pdf)
+* Cloud Austin
+  * 2020 - Lightning Talk - Incident Response: Whole Ass One Thing [slides](slides/2020-incident-response-one-thing.pdf)
+
 ## Short Bio
 
 Shaun isn’t a devops but can help sprinkle some on your infrastructure, apps, and/or culture. Friendgineering 4 lyfe, hugops not harm, tirefi.re benevolent underlord.

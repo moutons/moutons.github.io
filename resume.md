@@ -76,9 +76,9 @@ The Evergreen State College, Southwest Texas State University
 * devopsdays austin
   * 2020 - organizer
   * 2017-2019 - volunteer
-  * 2016 - Lightning Talk - tirefi.re, volunteer
-  * 2015 - Lightning Talk - Falling Lessons, volunteer
-  * 2014 - Speaker - devops done us wrong
+  * 2016 - Lightning Talk - tirefi.re [slides](slides/2016-This-is-a-Tire-Fire.pdf), volunteer
+  * 2015 - Lightning Talk - Falling Lessons [slides](slides/2015-DODATX-Falling-Lessons.pdf), volunteer
+  * 2014 - Speaker - devops done us wrong [slides](slides/2014-DODATX-devops-done-us-wrong.pdf)
   * 2012-2013 - attendee
 * devopsdays texas
   * 2021 - organizer
