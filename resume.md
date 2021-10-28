@@ -72,7 +72,7 @@ The Evergreen State College, Southwest Texas State University
 ## Conferences, SIGs, &c
 
 * All Day Devops
-  * 2021, Speaker - humane on-call strategies
+  * 2021, Speaker - humane on-call strategies [slides](slides/2021-ADDO-SRE-humane-on-call-strategies.pdf)
 * devopsdays austin
   * 2020 - organizer
   * 2017-2019 - volunteer
