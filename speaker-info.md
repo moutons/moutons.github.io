@@ -14,6 +14,9 @@ permalink: /speaker-info/
   * 2014 - Speaker - Devops Done Us Wrong [slides](slides/2014-DODATX-devops-done-us-wrong.pdf)
 * Cloud Austin
   * 2020 - Lightning Talk - Incident Response: Whole Ass One Thing [slides](slides/2020-incident-response-one-thing.pdf)
+  * 2019 - Lightning Talk - Cloudy with a chance of support [slides](slides/2019-cloudy-with-a-chance-of-support.pdf)
+* Austin Devops
+  * 2020 - 2018 Called, it wants its epiphany back [slides](slides/2020-2018-called-it-wants-its-epiphany-back.pdf)
 
 ## Short Bio
 
