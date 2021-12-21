@@ -1,28 +1,28 @@
 # Shaun Mouton
 
-email: [sdmouton@devops.christmas](mailto:sdmouton@devops.christmas?subject=[GH]%20About%20Your%20Resume)  
-[https://www.linkedin.com/in/sdmouton/](https://www.linkedin.com/in/sdmouton/)  
+email: [sdmouton@devops.christmas](mailto:sdmouton@devops.christmas?subject=[GH]%20About%20Your%20Resume)
+[https://www.linkedin.com/in/sdmouton/](https://orly.devops.christmas/link)
 
 ## Experience
 
 2021 Mastercard - Principal Software Development Engineer
 
-* Own the the Chef Infra and Habitat core platforms, promote their usability
-* Manage and support other team-owned CI/CD core platforms, including Jenkins and PCF
+* Own automation frameworks platforms, promote their usability, consult to enable their use
 * Serve on the Software Engineering Guild architecture review board
-* Serve as SME where required
+* Take ownership in the improvement of engineering efforts across the organization
 
 2021 ID.me - Sr. Devops Engineer
 
-* Own operations concerns, enable development teams, organization through a period of explosive growth
+* Own operations concerns
+* Enable development teams
+* Promote operability within the organization during a period of explosive growth
 
 2017-2021 Chef - Sr. Customer Reliability Engineer
 
-* Aid Enterprise customers with their efforts to transform their businesses leveraging Chef products.
-* Take proactive ownership in identifying and recommending product improvements based on key data points.
-* Own and improve processes used whenever customers present issues.
+* Take proactive ownership in collecting defect data and recommending product improvements.
+* Own and improve processes used whenever customers raise issues.
 * Own customer issues, issuing pull requests to product code when necessary to drive issues to a positive resolution.
-* Ensure a great customer experience at every opportunity, contributing to customer experience and enhancing the value of Chef's products and services.
+* Ensure a great customer experience at every opportunity, contributing to customer experience and enhancing the value of products and services.
 
 2016-2017 Kasasa - Senior Systems Administrator
 
@@ -71,6 +71,9 @@ The Evergreen State College, Southwest Texas State University
 
 ## Conferences, SIGs, &c
 
+* Sysadvent
+  * 2021, Author - [Least privilege using strace](https://sysadvent.blogspot.com/2021/12/least-privilege-using-strace.html)
+  * 2012-2016, Editor - [various](https://orly.devops.christmas/sysadvent)
 * All Day Devops
   * 2021, Speaker - humane on-call strategies [slides](slides/2021-ADDO-SRE-humane-on-call-strategies.pdf)
 * devopsdays austin
