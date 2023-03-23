@@ -75,14 +75,14 @@ The Evergreen State College, Southwest Texas State University
   * 2021, Author - [Least privilege using strace](https://sysadvent.blogspot.com/2021/12/least-privilege-using-strace.html)
   * 2012-2016, Editor - [various](https://orly.devops.christmas/sysadvent)
 * All Day Devops
-  * 2021, Speaker - humane on-call strategies [slides](slides/2021-ADDO-SRE-humane-on-call-strategies.pdf)
+  * 2021, Speaker - [humane on-call strategies](slides/2021-ADDO-SRE-humane-on-call-strategies.pdf)
 * devopsdays austin
-  * 2023 - core team
+  * 2023 - co-chair
   * 2020-2022 - organizer
   * 2015-2019 - volunteer
-  * 2016 - Lightning Talk - tirefi.re [slides](slides/2016-This-is-a-Tire-Fire.pdf)
-  * 2015 - Lightning Talk - Falling Lessons [slides](slides/2015-DODATX-Falling-Lessons.pdf)
-  * 2014 - Speaker - devops done us wrong [slides](slides/2014-DODATX-devops-done-us-wrong.pdf)
+  * 2016 - Lightning Talk - [tirefi.re](slides/2016-This-is-a-Tire-Fire.pdf)
+  * 2015 - Lightning Talk - [Falling Lessons](slides/2015-DODATX-Falling-Lessons.pdf)
+  * 2014 - Speaker - [devops done us wrong](slides/2014-DODATX-devops-done-us-wrong.pdf)
   * 2012-2013 - attendee
 * devopsdays texas
   * 2021 - organizer
@@ -92,15 +92,18 @@ The Evergreen State College, Southwest Texas State University
   * 2013, 2014 - attendee
 * 2013-14 State of DevOps Report
   * survey design working group
+* Cloud Austin
+  * 2020 - Lightning Talk - [Incident Response: Whole Ass One Thing](slides/2020-incident-response-one-thing.pdf)
+  * 2019 - Lightning Talk - [Cloudy with a chance of support](slides/2019-cloudy-with-a-chance-of-support.pdf)
 * Geek Austin
   * Austin DevOps
-  * Cloud User Group
+    * 2020 - [2018 Called, it wants its epiphany back](slides/2020-2018-called-it-wants-its-epiphany-back.pdf)
 * ChefConf 2015-2022
   * 2017-2020 as an employee
 * Austin Chef Meetup
 * Docker Austin
 * Agile Austin
-* Austin Puppet User Group, Cofounder & Organizer
+* Austin Puppet User Group - Cofounder
 * Puppet Camps
   * Austin 2013, Dallas 2014
   * Austin 2015, Speaker - How I learned to stop worrying and love the ENC

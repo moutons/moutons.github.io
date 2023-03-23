@@ -8,15 +8,17 @@ permalink: /speaker-info/
 
 * All Day Devops
   * 2021, Speaker - humane on-call strategies [slides](slides/2021-ADDO-SRE-humane-on-call-strategies.pdf)
+* Austin Devops
+  * 2020 - 2018 Called, it wants its epiphany back [slides](slides/2020-2018-called-it-wants-its-epiphany-back.pdf)
+* Cloud Austin
+  * 2020 - Lightning Talk - Incident Response: Whole Ass One Thing [slides](slides/2020-incident-response-one-thing.pdf)
+  * 2019 - Lightning Talk - Cloudy with a chance of support [slides](slides/2019-cloudy-with-a-chance-of-support.pdf)
 * Devopsdays Austin
   * 2016 - Lightning Talk - tirefi.re [slides](slides/2016-This-is-a-Tire-Fire.pdf)
   * 2015 - Lightning Talk - Falling Lessons [slides](slides/2015-DODATX-Falling-Lessons.pdf)
   * 2014 - Speaker - Devops Done Us Wrong [slides](slides/2014-DODATX-devops-done-us-wrong.pdf)
-* Cloud Austin
-  * 2020 - Lightning Talk - Incident Response: Whole Ass One Thing [slides](slides/2020-incident-response-one-thing.pdf)
-  * 2019 - Lightning Talk - Cloudy with a chance of support [slides](slides/2019-cloudy-with-a-chance-of-support.pdf)
-* Austin Devops
-  * 2020 - 2018 Called, it wants its epiphany back [slides](slides/2020-2018-called-it-wants-its-epiphany-back.pdf)
+* USENIX SREcon
+  * 2022 - Securing Your Software Delivery Chain with Process Auditing [slides](slides/sre22amer_slides_mouton.pdf)
 
 ## Short Bio
 
