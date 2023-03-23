@@ -1,15 +1,15 @@
 # Shaun Mouton
 
 email: [sdmouton@devops.christmas](mailto:sdmouton@devops.christmas?subject=[GH]%20About%20Your%20Resume)
-[https://www.linkedin.com/in/sdmouton/](https://orly.devops.christmas/link)
 
 ## Experience
 
 2021 Mastercard - Principal Software Development Engineer
 
-* Own automation frameworks platforms, promote their usability, consult to enable their use
-* Serve on the Software Engineering Guild architecture review board
-* Take ownership in the improvement of engineering efforts across the organization
+* Own automation frameworks platforms, their usability, consult to expand their use
+* Participate in Software Engineering Guild architecture reviews
+* Mentor colleagues in various areas of practice (SRE, CI/CD, Performance Eng, Ops)
+* Take ownership in improving engineering efforts across the organization
 
 2021 ID.me - Sr. Devops Engineer
 
@@ -77,10 +77,11 @@ The Evergreen State College, Southwest Texas State University
 * All Day Devops
   * 2021, Speaker - humane on-call strategies [slides](slides/2021-ADDO-SRE-humane-on-call-strategies.pdf)
 * devopsdays austin
-  * 2020 - organizer
-  * 2017-2019 - volunteer
-  * 2016 - Lightning Talk - tirefi.re [slides](slides/2016-This-is-a-Tire-Fire.pdf), volunteer
-  * 2015 - Lightning Talk - Falling Lessons [slides](slides/2015-DODATX-Falling-Lessons.pdf), volunteer
+  * 2023 - core team
+  * 2020-2022 - organizer
+  * 2015-2019 - volunteer
+  * 2016 - Lightning Talk - tirefi.re [slides](slides/2016-This-is-a-Tire-Fire.pdf)
+  * 2015 - Lightning Talk - Falling Lessons [slides](slides/2015-DODATX-Falling-Lessons.pdf)
   * 2014 - Speaker - devops done us wrong [slides](slides/2014-DODATX-devops-done-us-wrong.pdf)
   * 2012-2013 - attendee
 * devopsdays texas
@@ -94,7 +95,8 @@ The Evergreen State College, Southwest Texas State University
 * Geek Austin
   * Austin DevOps
   * Cloud User Group
-* ChefConf 2015-2019
+* ChefConf 2015-2022
+  * 2017-2020 as an employee
 * Austin Chef Meetup
 * Docker Austin
 * Agile Austin
@@ -106,7 +108,7 @@ The Evergreen State College, Southwest Texas State University
 ## Training and Certifications
 
 * Puppet Labs - Puppet Master Certification
-* Chef - Chef Fundamentals
+* Chef - Various
 * RHEL, RHCSA
 * CompTIA
   * A+ Network+ Security+
