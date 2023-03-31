@@ -1,126 +1,68 @@
-# Shaun Mouton
+### [sdmouton@devops.christmas](mailto:sdmouton@devops.christmas)
 
-email: [sdmouton@devops.christmas](mailto:sdmouton@devops.christmas?subject=[GH]%20About%20Your%20Resume)
+## Shaun Mouton
+***
 
-## Experience
+## SUMMARY
+As I grow in my engineering career, I find that my passions and strengths lie in a few overlapping areas: communication, process improvement, and building learning organizations. I help teams improve communication and cross-domain collaboration by identifying shared pain points and solving them together. I focus on improving developer feedback loops, streamlining artifact promotion processes, and evangelizing stable and secure engineering patterns to improve operational reliability. I bring extensive experience in improving knowledge transfer, so context and knowledge is shared between teams.
 
-2021 Mastercard - Principal Software Development Engineer
+### Languages
+Ruby, Python, Java, Go, Rust, Bash.
 
-* Own automation frameworks platforms, their usability, consult to expand their use
-* Participate in Software Engineering Guild architecture reviews
-* Mentor colleagues in various areas of practice (SRE, CI/CD, Performance Eng, Ops)
-* Take ownership in improving engineering efforts across the organization
+### Tools
+Terraform, Chef, Ansible, Azure, AWS, Docker, K8s.
 
-2021 ID.me - Sr. Devops Engineer
+## EXPERIENCE
 
-* Own operations concerns
-* Enable development teams
-* Promote operability within the organization during a period of explosive growth
+### Mastercard _— Principal Software Development Engineer_
+Jan 2021 - Present
 
-2017-2021 Chef - Sr. Customer Reliability Engineer
+* Describe and inform platform strategy at the enterprise level for new initiatives and maintenance work related to CI/CD, Configuration as Code, and Performance Engineering.
+* Drive improvements for build & release engineering work: design, deliver, and secure common pipelines and workflows for delivering code written across the enterprise from sandbox to production environments.
+* Own automation frameworks platforms, their usability, and consult to expand their use.
 
-* Take proactive ownership in collecting defect data and recommending product improvements.
-* Own and improve processes used whenever customers raise issues.
-* Own customer issues, issuing pull requests to product code when necessary to drive issues to a positive resolution.
-* Ensure a great customer experience at every opportunity, contributing to customer experience and enhancing the value of products and services.
+### ID.me _— Platform Architect_
+June 2020 - Dec 2020
 
-2016-2017 Kasasa - Senior Systems Administrator
+* Guided team of 40 engineers on how to scale their Rails application to handle active user spikes of over 300x compared to its designed capacity.
+* Advised leadership on modern operational, security, and software engineering patterns.
 
-* Updated and maintained infrastructure management codebases (Puppet, Chef, Terraform).
-* Designed and managed processes for migrating applications from legacy datacenter infrastructure to AWS.
-* Updated hand-managed datacenter network and security equipment from multi-vendor to single-vendor.
-* Mentored technology department in agile software development and devops-influenced practices.
+### Chef _— Sr. Customer Reliability Engineer_
+2017 - 2021
 
-2015-2016 W2O Group - Devops Engineer
+* Restructured US-based team of 7 support staff providing 24x7x365 support, augmenting with 5 offshore staff to provide follow-the-sun support with minimal staffing cost increase.
+* Built common processes for supporting customers, documenting solutions, and escalating issues to engineering.
+* Built common tooling for improving customer outcomes via standardized log collection and statistical analysis.
+* Built a recommendation library based on the above results which directed customers to right-size their deployments and decreased configuration-related downtime.
 
-* Collaborated and led efforts to ensure that technology efforts serve business needs.
-* Worked with teams to improve shared services.
-* Maintained Chef codebase, updated legacy code to Chef 12, implemented test-kitchen.
-* Maintained and retired legacy infrastructure.
-* Controlled and reduced AWS and Rackspace spend and account sprawl.
-* Migrated acquired company's applications from colocated datacenter infrastructure to AWS & Chef.
 
-2011-2015 City of Austin, Communication & Technology Management - Network System Administrator Sr.
+### Kasasa _— Senior Cloud Systems Engineer_
+2016 - 2017
 
-* Championed the effort to shift to agile software development methodologies and devops philosophies.
-* Served as mentor to technical staff around healthy infrastructure and software development patterns.
-* Designed, implemented, and iterated CoA's Puppet Enterprise deployment to PE 3.4.
-* Ran Enterprise Systems Group's Linux systems, software, and F5 equipment.
+* Designed & implemented processes for migrating datacenter applications to AWS using Puppet and Terraform.
+* Consolidated bespoke multi-vendor networking stack to Juniper and untangled application logic from network rules.
+* Mentored engineers in agile software development and devops practices.
 
-2011 HostGator, LLC - Linux Administrator
+### W2O Group _— Devops Engineer_
+2015 - 2016
 
-* Provided L2/L3 technical support for issues via helpdesk, chat, and phone.
+* Drove a 20% reduction in hosting spend by migrating applications from manually managed colocated provider infrastructure to Chef-managed AWS, and moving Wordpress site hosting to managed Wordpress.
+* Developed an internally-managed Elasticsearch platform with segregation for petabyte-scale data warehousing, public-facing application search, and internal development use.
 
-2010-2011 AppleCare
+### City of Austin _— Sr. Systems Engineer_
+2011 - 2015
 
-* Provided Enterprise Systems L3 support.
+* Championed the effort to shift to agile software development methodologies, devops philosophies, common CI pipelines, and configuration as code.
+* Mentored engineers and department leadership on agile software development, devops practices, healthy infrastructure management and software development patterns.
 
-1992-2011 Exit808 Consulting - IT Consultant, Self-Employed
+## Conferences, SIGs, etc
 
-* Provided IT and information security services to area nonprofits and SMBs.
-* Provided training on IT, Security, and other topics to a variety of audiences.
+I speak at conferences and write content for the community in areas related to my professional areas of focus. You can find a selection of my work here: [https://moutons.github.io/speaker-info/](https://moutons.github.io/speaker-info/)
 
-2006-2009 Capital Clubhouse - IT Administrator, Program Manager
+I am an active participant in my professional community. I am a co-chair of DevOpsDays Austin as of 2023, have been an organizer since 2020, and have volunteered with the conference since 2014. I co-founded the Austin Puppet User Group in 2013. I have been a volunteer or organizer for the Austin DevOps meetup and Cloud Austin meetup since 2012.
 
-* Designed, customized, and implemented computerized case management solution for Windows & Linux workstations.
-* Managed IT services, network, and security measures, including training volunteers and staff.
+## EDUCATION
+### The Evergreen State College, Olympia WA
+2004 - 2008
 
-## Education
-
-The Evergreen State College, Southwest Texas State University
-
-## Conferences, SIGs, &c
-
-* Sysadvent
-  * 2021, Author - [Least privilege using strace](https://sysadvent.blogspot.com/2021/12/least-privilege-using-strace.html)
-  * 2012-2016, Editor - [various](https://orly.devops.christmas/sysadvent)
-* All Day Devops
-  * 2021, Speaker - [humane on-call strategies](slides/2021-ADDO-SRE-humane-on-call-strategies.pdf)
-* devopsdays austin
-  * 2023 - co-chair
-  * 2020-2022 - organizer
-  * 2015-2019 - volunteer
-  * 2016 - Lightning Talk - [tirefi.re](slides/2016-This-is-a-Tire-Fire.pdf)
-  * 2015 - Lightning Talk - [Falling Lessons](slides/2015-DODATX-Falling-Lessons.pdf)
-  * 2014 - Speaker - [devops done us wrong](slides/2014-DODATX-devops-done-us-wrong.pdf)
-  * 2012-2013 - attendee
-* devopsdays texas
-  * 2021 - organizer
-* Container Days Austin
-  * 2015, 2016 - attendee
-* Data Day Texas
-  * 2013, 2014 - attendee
-* 2013-14 State of DevOps Report
-  * survey design working group
-* Cloud Austin
-  * 2020 - Lightning Talk - [Incident Response: Whole Ass One Thing](slides/2020-incident-response-one-thing.pdf)
-  * 2019 - Lightning Talk - [Cloudy with a chance of support](slides/2019-cloudy-with-a-chance-of-support.pdf)
-* Geek Austin
-  * Austin DevOps
-    * 2020 - [2018 Called, it wants its epiphany back](slides/2020-2018-called-it-wants-its-epiphany-back.pdf)
-* ChefConf 2015-2022
-  * 2017-2020 as an employee
-* Austin Chef Meetup
-* Docker Austin
-* Agile Austin
-* Austin Puppet User Group - Cofounder
-* Puppet Camps
-  * Austin 2013, Dallas 2014
-  * Austin 2015, Speaker - How I learned to stop worrying and love the ENC
-
-## Training and Certifications
-
-* Puppet Labs - Puppet Master Certification
-* Chef - Various
-* RHEL, RHCSA
-* CompTIA
-  * A+ Network+ Security+
-* Washington State Educational Services District 113 Training
-  * Systems Thinking
-  * Strategic Thinking
-  * Strategic Planning and Cross-Systems Collaboration
-  * Organizational Management and Board Development
-* Mental Health First Aid
-  * MHFA Train-the-Trainer
-  * MHFA Trainer
-  * MHFA Adult
+Evening and weekend study focusing on Computational Linguistics, 4 credits shy of a degree as I lost my consulting business when markets tightened in 2008
