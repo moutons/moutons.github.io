@@ -7,7 +7,7 @@ permalink: /speaker-info/
 ## Talks
 
 * All Day Devops
-  * 2021, Speaker - humane on-call strategies [slides](slides/2021-ADDO-SRE-humane-on-call-strategies.pdf)
+  * 2021, Speaker - Humane On-call Strategies [slides](slides/2021-ADDO-SRE-humane-on-call-strategies.pdf)
 * Austin Devops
   * 2020 - 2018 Called, it wants its epiphany back [slides](slides/2020-2018-called-it-wants-its-epiphany-back.pdf)
 * Cloud Austin
@@ -20,20 +20,19 @@ permalink: /speaker-info/
 * USENIX SREcon
   * 2022 - Securing Your Software Delivery Chain with Process Auditing [slides](slides/sre22amer_slides_mouton.pdf)
 
+## Online
+
+* Sysadvent
+  * 2021, Author - [Least privilege using strace](https://sysadvent.blogspot.com/2021/12/least-privilege-using-strace.html)
+  * 2012-2016, Editor - [various](https://orly.devops.christmas/sysadvent)
+
 ## Short Bio
 
-Shaun isn’t a devops but can help sprinkle some on your infrastructure, apps, and/or culture. Friendgineering 4 lyfe, hugops not harm, tirefi.re benevolent underlord.
+Shaun works as a systems engineer and architect leveraging DevOps concepts, having come to it by reading the work of W. Edwards Deming in the mid-2000s. He is a co-chair of the DevOpsDays Austin conference and active in the Austin tech community.
 
 ## Longer Bio
 
-Shaun tried for years to become something other than a sysadmin, but his plans were for naught. He's given some talks about bringing systems thinking, lean startup, agile software engineering and devops philosophy stuff, mostly in the Austin area. In the more distant past, he's talked some more about mental health services, cognitive behavioral therapy, mindfulness practice, and destigmatizing mental health issues. He talks a lot about configuration management, considerations and successful patterns when migrating applications from datacenters to AWS, and more.
-
-You can find him on Twitter as [@sdmouton](https://twitter.com/sdmouton), on github as [moutons](https://github.com/moutons), on [#_hangops_ slack](http://signup.hangops.com/) as sdmouton, and follow a similar pattern elsewhere on the internet to great success.
-
----
-
-"Elbow grease, how stupid do they think I am? Once I get back to base with that headlight fluid, I'm gonna talk to the Sergeant."
-*[Red vs Blue](http://roostertooths.com/transcripts.php?eid=3)*
+Shaun tried for years to become something other than a sysadmin, but despite working as a painter, a caseworker in a community mental health agency, and every job he could in restaurants those attempts came to naught. He works as a systems engineer and architect leveraging DevOps concepts, having come to it by reading the work of W. Edwards Deming in the mid-2000s. He is a co-chair of the DevOpsDays Austin conference and active in the Austin tech community. He speaks about migrating and updating legacy workloads and processes to their cloud-native counterparts, process improvement, building knowledge organizations, making work visible, and human-centered workplace design. In the past he has talked about destigmatizing mental health issues, mindfulness practices, and disability rights.
 
 ---
 
